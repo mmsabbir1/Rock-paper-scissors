@@ -1,30 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <title>A JavaScript project</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Rock Paper Scissors</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-  <div id="title">
-    <h2 > </h2>
+  <div class="wrapper">
+    <div class="buttons">
+      <button class="rpsButton" value="Rock">✊</button>
+      <button class="rpsButton" value="Paper">🤚</button>
+      <button class="rpsButton" value="Scissors">✌️</button>
+    </div>
+    <div class="resultContainer">
+      <div id="player-score"></div>
+      <div id="hands"></div>
+      <div id="result"></div>
+      <button id='endGameButton'>🔴</button>
+    </div>
   </div>
-
-  <div  style="display: flex;">
-
-  <button class="colorSquare" id="red" style="height: 100px; width: 100px; 
-  background-color: red; " value="red"></button>
-
-  <button class="colorSquare" id="yellow" style="height: 100px; width: 100px; 
-  background-color: yellow; " value="yellow"></button>
-
-  <button class="colorSquare" id="green" style="height: 100px; width: 100px; 
-  background-color: green; " value="green"></button>
-  </div>
-  <div style="display: flex; margin-left: 105px; ">
-    <button id="clear-game"><h4>Clear  Game </h4></button>
-  </div>
-  
 
   <script src="script.js"></script>
 </body>
+
 </html>
